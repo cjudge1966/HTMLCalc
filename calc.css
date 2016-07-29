@@ -1,0 +1,55 @@
+* {
+    font-family: arial;
+}
+
+.rightAligned {
+    text-align: right;
+}
+
+.numberButton {
+    width: 35px;
+    height: 35px;
+    background-color: #707060;
+    color: white;
+}
+
+.wideButton {
+    width: 75px;
+}
+
+.opButton {
+    width: 35px;
+    height: 35px;
+    background-color: #506050;
+    color: white;
+}
+
+#divCalc {
+    border: solid 1px black;
+    width: 175px;
+    background-color: whitesmoke;
+}
+
+#divDisplay {
+    margin: 5px;
+}
+
+#display {
+    width: 162px;
+    background-color: white;
+}
+
+#divLogo {
+    margin: 5px;
+    text-align: right;
+}
+
+#divButtons {
+    margin: 5px;
+}
+
+#divNumbers {
+    margin-right: 15px;
+    float: left;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div id="divCalc">
+        <div id="divDisplay">
+            <input id="display" class="rightAligned" type="text" value="" readonly="readonly">
+        </div>
+        <div id="divLogo">
+            HTMLCalc<hr>
+        </div>
+        <div id="divButtons">
+            <div id="divNumbers">
+                <div id="divHex">
+                    <div>
+                        <input type="button" class="numberButton" value="d">
+                        <input type="button" class="numberButton" value="e">
+                        <input type="button" class="numberButton" value="f">
+                    </div>
+                    <div>
+                        <input type="button" class="numberButton" value="a">
+                        <input type="button" class="numberButton" value="b">
+                        <input type="button" class="numberButton" value="c">
+                    </div>
+                </div>
+                <div id="divDec">
+                    <div>
+                        <input type="button" class="numberButton" value="7">
+                        <input type="button" class="numberButton" value="8">
+                        <input type="button" class="numberButton" value="9">
+                    </div>
+                    <div>
+                        <input type="button" class="numberButton" value="4">
+                        <input type="button" class="numberButton" value="5">
+                        <input type="button" class="numberButton" value="6">
+                    </div>
+                    <div>
+                        <input type="button" class="numberButton" value="1">
+                        <input type="button" class="numberButton" value="2">
+                        <input type="button" class="numberButton" value="3">
+                    </div>
+                    <div>
+                        <input type="button" class="numberButton wideButton" value="0">
+                        <input type="button" class="numberButton" value=".">
+                    </div>
+                </div>
+            </div>
+            <div id="divOperators">
+                <input type="button" class="opButton" value="C"><br>
+                <input type="button" class="opButton" value="*"><br>
+                <input type="button" class="opButton" value="/"><br>
+                <input type="button" class="opButton" value="+"><br>
+                <input type="button" class="opButton" value="-"><br>
+                <input type="button" class="opButton" value="="><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
